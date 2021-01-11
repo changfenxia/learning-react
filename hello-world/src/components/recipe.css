@@ -1,0 +1,42 @@
+.recipe {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  border: 1px solid rgb(214, 204, 204);
+  border-radius: 0.5rem;
+  padding-right: 10px;
+  cursor: pointer;
+  transition-duration: 500ms;
+  
+}
+
+.recipe:hover {
+    box-shadow: 3px 3px 3px 1px rgba(73, 38, 38, 0.2);
+}
+
+.recipe__img {
+  flex-basis: content;
+  max-width: 35%;
+  border-radius: 0.5rem;
+}
+
+.recipe-description h2 {
+    margin: 1rem 0 2rem;
+}
+
+.recipe-details__container li {
+  list-style-type: none;
+  margin-bottom: 1rem;
+}
+
+.recipe-details--portions::before {
+    padding-right: 1rem;
+    content: '\1F37D';
+}
+
+.recipe-details--minutes::before {
+    padding-right: 1rem;
+    content: '\1F550';
+  }
+  
+
